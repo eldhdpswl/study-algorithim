@@ -1,0 +1,10 @@
+#(1)
+A,B = input().split()
+print(int(A)/int(B))
+
+#(2)
+a,b = input().split()
+a = float(a)
+b = float(b)
+#print(a/b)
+print(round(a/b,9))  #절대/상대 오차가 10^-9 까지 혀용한다는 것으로, 소수점 이하 9자리까지 출력을 허용해야 한다는 점입니다.
