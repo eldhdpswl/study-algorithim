@@ -1,0 +1,35 @@
+cnt = int(input())
+numbers = list(map(int, input().split()))
+print(min(numbers),max(numbers))
+
+"""
+##
+파이썬의 내장함수 min(), max()를 이용하면 최댓값과 최솟값을 편하게 구할 수 있다.
+
+(1)
+cnt = int(input())
+numbers = list(map(int, input().split()))
+max = numbers[0]
+min = numbers[0]
+
+for i in numbers[1:]:
+    if i > max:
+        max = i
+    elif i < min:
+        min = i
+
+print(min,max)​
+
+##
+cnt에 정수의 개수를 입력 받고, numbers에 정수를 입력받는다. input().split()을 이용하여 공백으로 구분한다.
+
+max와 min에 각 각 numbers의 첫번째 요소를 넣어준다.
+
+for문에서 numbers의 2번째 요소부터 마지막 요소까지 차례로 비교해준다.
+
+max보다 크면, max값을 바꿔주고 
+
+min보다 작으면, min값을 바꿔준다.
+
+print()로 최댓값, 최솟값을 출력한다.
+"""
