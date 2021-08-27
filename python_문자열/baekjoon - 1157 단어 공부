@@ -1,0 +1,25 @@
+words = input().upper()
+unique_words = list(set(words))  # 입력받은 문자열에서 중복값을 제거
+
+cnt_list = []
+for x in unique_words :
+    cnt = words.count(x)
+    cnt_list.append(cnt)  # count 숫자를 리스트에 append
+
+if cnt_list.count(max(cnt_list)) > 1 :  # count 숫자 최대값이 중복되면
+    print('?')
+else :
+    max_index = cnt_list.index(max(cnt_list))  # count 숫자 최대값 인덱스(위치)
+    print(unique_words[max_index])
+
+"""
+##
+처음에 입력받는 문자는 대소문자를 구분하지 않기 때문에 upper 함수를 이용하여 문자열을 모두 대문자로 변환하고서 words라는 변수에 선언하였다.
+입력받은 문자열 중 중복되는 요소는 set함수를 이용해서 제거했고 중복되지 않는 요소만 남긴 리스트는  unique_words라는 변수에 선언하였다. 
+이 리스트는 입력받은 문자에서 알파벳이 몇 번 사용되는지를 확인하는 데 사용했다.
+
+입력받은 문자열에 같은 알파벳이 몇 개 있는지 숫자를 카운트해서 cnt_list 리스트에 추가한다. 이 리스트에서의 숫자의 순서는 unique_words 리스트의 원소의 순서와 동일하다.
+
+숫자 리스트에서 알파벳이 사용된 개수 중 가장 큰 수를 찾고서 해당 숫자가 1보다 크면 물음표를 출력한다. 
+최댓값이 하나라면 숫자 리스트에서 가장 큰 수의 위치를 index 함수로 찾고서 unique_words 리스트에서 같은 인덱스에 위치한 문자열을 출력한다.
+"""
