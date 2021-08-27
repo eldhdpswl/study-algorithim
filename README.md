@@ -5,4 +5,4 @@
   - code.plus
   - backjoon
   - leetcode
-  Etc 
+  - Etc 
