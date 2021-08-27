@@ -1,0 +1,25 @@
+#(1)
+a, b, c = map(int, input().split())
+print((a+b)%c)
+print(((a+c)+(b+c))%c)
+print((a*b)%c)
+print(((a%c)*(b%c))%c)
+
+#(2)
+A,B,C = map(int,input().split())
+print((A+B)%C, ((A%C)+(B%C))%C, (A*B)%C, ((A%C)*(B%C))%C, sep='\n')
+# sep='\n'로 줄바꿈
+
+#(3)
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+print((a+b)%c)
+print((a%c + b%c)%c)
+print((a*b)%c)
+print((a%c * b%c)%c)
+# 문제에 말이 어렵게 써있어서 그렇지 간단히 예제 출력부분만 본다면 어렵지도 않은 단순한 연산문제이다.
+
+## 수식 그대로 붙여넣기 하지 말기, x 부호 *로 변경, A,B,C 문자 수식에 맞는 대문자로 변경,
+#이번문제 (2) map 사용
