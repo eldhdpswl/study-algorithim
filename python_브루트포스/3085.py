@@ -1,3 +1,5 @@
+# 3085 사탕 게임
+
 def check(a, start_row, end_row, start_col, end_col):
     n = len(a)
     ans = 1
