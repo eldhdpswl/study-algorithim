@@ -39,3 +39,4 @@ for i in range(n):
                 ans = temp
             a[i][j],a[i+1][j] = a[i+1][j],a[i][j]
 print(ans)
+
