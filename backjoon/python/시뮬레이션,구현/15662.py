@@ -1,3 +1,5 @@
+# 백준 15662 톱니바퀴(2)
+
 n = int(input())
 a = [list(input()) for _ in range(n)]
 k = int(input())
