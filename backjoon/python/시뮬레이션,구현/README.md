@@ -5,7 +5,7 @@
 * 16935번 - 배열 돌리기 3
 * 16926번 - 배열 돌리기 1
 * 16927번 - 배열 돌리기 2
-* [14499번 - 주사위 굴리기](https://github.com/eldhdpswl/study-algorithim/backjoon/python/시뮬레이션,구현/14499.py)
+* [14499번 - 주사위 굴리기](https://github.com/eldhdpswl/study-algorithim/backjoon/python/14499.py)
 * [15662번 - 톱니바퀴 (2)](https://github.com/eldhdpswl/study-algorithim/backjoon/python/시뮬레이션,구현/15662.py)
 * [14503번 - 로봇 청소기](https://github.com/eldhdpswl/study-algorithim/backjoon/python/시뮬레이션,구현/14503.py)
 * 14890번 - 경사로
