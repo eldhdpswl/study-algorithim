@@ -23,3 +23,5 @@ while len(heap) != 1:
     heapq.heappush(heap, sum_value)
 
 print(result)
+
+# 최대값, 최소값을 계속해서 호출해야하는 상황인 경우
